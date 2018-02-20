@@ -1,0 +1,83 @@
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+img {
+	max-width: 100%;
+}
+
+nav a {
+	font-size: 14px !important;
+}
+
+header {
+	background: url(../images/intro-bg.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 20% 0px;
+}
+
+header h1 {
+	font-size: 5em;
+}
+
+section.d h2 {
+	font-size: 3em;
+}
+
+section.d h2, header h1, header h3 {
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+header hr {
+	width: 50%;
+}
+
+section hr {
+	height: 3px;
+	width: 50%;
+	display: inline-block;
+	background-color: #acacac;
+}
+
+section {
+	padding: 50px 0px;
+}
+
+section.a, section.c, footer {
+	background-color: #f8f8f8;
+}
+
+section.d {
+	background: url(../images/banner-bg.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 100px 0px;
+}
+
+footer {
+	padding: 30px 0px;
+}
+
+header, section.d {
+	color: #fff;
+}
+
+section.d ul {
+	margin-top: 10px;
+}
+
+.lead {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.list-inline>li {
+	margin-top: 10px;
+}
+
+a.btn {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/font-awesome.min.css" rel="stylesheet">
+	<link href="./css/css.min.css" rel="stylesheet">
+	<link href="./images/fav.png" rel="shortcut icon" type="image/png"> </head>
+
+<body>
+	<header class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header"> <a href="#" class="navbar-brand">Bootstrap</a> <button class="navbar-toggle" data-toggle="collapse" data-target="#navig"><i class="fa fa-cog fa-2x"></i></button> </div>
+			<div class="collapse navbar-collapse" id="navig">
+				<ul class="nav navbar-nav navbar-right navbav">
+					<li class="dropdown"> <a href="#" data-toggle="dropdown"><i class="fa fa-cog"></i>Settings<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Account Settings</a></li>
+							<li><a href="#">Privacy Settings</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"> <a href="#" data-toggle="dropdown"><i class="fa fa-user"></i>User<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">My Profile</a></li>
+							<li><a href="#">My Groups</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form action="" class="navbar-form navbar-right">
+					<div class="form-group"> <input type="search" class="form-control search" placeholder="Search"></div>
+				</form>
+			</div>
+		</div>
+	</header>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header text-center"> <button class="navbar-toggle navbar-toggle-main" data-toggle="collapse" data-target="#navig2"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> </div>
+			<div class="collapse navbar-collapse" id="navig2">
+				<ul class="nav navbar-nav text-center">
+					<li class="dropdown active"><a href="#"><i class="fa fa-home fa-3x"></i><br>Home<br><span class="caret" style="color: transparent;"></span></a></li>
+					<li class="dropdown"> <a href="#" data-toggle="dropdown"><i class="fa fa-th fa-3x"></i><br>Components<br><span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Elements</a></li>
+							<li><a href="#">Form Styles</a></li>
+							<li><a href="#">jQuery UI</a></li>
+							<li><a href="#">Charts</a></li>
+							<li><a href="#">Popups/Notifications</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"> <a href="#" data-toggle="dropdown"><i class="fa fa-files-o fa-3x"></i><br>Sample Page<br><span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Pricing Plans</a></li>
+							<li><a href="#">FAQ's</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Reports</a></li>
+							<li><a href="#">User Account</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"> <a href="#" data-toggle="dropdown"><i class="fa fa-external-link fa-3x"></i><br>Extra Pages<br><span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Signup</a></li>
+							<li><a href="#">Error</a></li>
+							<li><a href="#">More options</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid main-container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12 left-column">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading"><i class="fa fa-star"></i><span class="h4">Quick Stats</span></div>
+						<div class="panel-body">
+							<div class="jumbotron">
+								<h2>Hello World!</h2><button class="btn btn-info">Hello!</button></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading"><i class="fa fa-list-alt"></i><span class="h4">Recent News</span></div>
+						<ul class="list-group">
+							<li class="list-group-item clearfix">
+								<div class="col-xs-10"><a href="#">Duis aute irure dolor in reprehenderit</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+								</div>
+								<div class="col-xs-2 text-center date"><span class="big">5</span>Mar</div>
+							</li>
+							<li class="list-group-item clearfix">
+								<div class="col-xs-10"><a href="#">Duis aute irure dolor in reprehenderit</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+								</div>
+								<div class="col-xs-2 text-center date"><span class="big">5</span>Mar</div>
+							</li>
+							<li class="list-group-item clearfix">
+								<div class="col-xs-10"><a href="#">Duis aute irure dolor in reprehenderit</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+								</div>
+								<div class="col-xs-2 text-center date"><span class="big">5</span>Mar</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading"><i class="fa fa-file"></i><span class="h4">Content</span></div>
+						<div class="panel-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure
+								dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12 right-column">
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading"><i class="fa fa-bookmark"></i><span class="h4">Quick Shortcuts</span></div>
+						<div class="panel-body text-center"> <button href="#" class="btn btn-default text-center main-btn"><i class="fa fa-list-alt fa-3x"></i><br><span>Apps</span></button> <button href="#" class="btn btn-default text-center main-btn"><i class="fa fa-bookmark fa-3x"></i><br><span>Bookmarks</span></button>							<button href="#" class="btn btn-default text-center main-btn"><i class="fa fa-signal fa-3x"></i><br><span>Repost</span></button> <button href="#" class="btn btn-default text-center main-btn"><i class="fa fa-comment fa-3x"></i><br><span>Comments</span></button>							<button href="#" class="btn btn-default text-center main-btn"><i class="fa fa-user fa-3x"></i><br><span>Users</span></button> <button href="#" class="btn btn-default text-center main-btn"><i class="fa fa-file fa-3x"></i><br><span>Notes</span></button>							<button href="#" class="btn btn-default text-center main-btn"><i class="fa fa-picture-o fa-3x"></i><br><span>Photos</span></button> <button href="#" class="btn btn-default text-center main-btn"><i class="fa fa-tag fa-3x"></i><br><span>Tags</span></button>							</div>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading"><i class="fa fa-signal"></i><span class="h4">Chart</span></div>
+						<div class="panel-body"> <img src="./images/YKq8Ic7Ka6U.jpg" alt=""></div>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading"><i class="fa fa-list"></i><span class="h4">Table</span></div>
+						<table class="table table-responsive table-striped table-bordered table-hover">
+							<thead>
+								<tr>
+									<th>Engine</th>
+									<th>Browser</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Triden</td>
+									<td>IE</td>
+									<td><button class="btn btn-warning"><i class="fa fa-check"></i></button></td>
+								</tr>
+								<tr>
+									<td>Triden</td>
+									<td>IE</td>
+									<td><button class="btn btn-warning"><i class="fa fa-check"></i></button></td>
+								</tr>
+								<tr>
+									<td>Triden</td>
+									<td>IE</td>
+									<td><button class="btn btn-warning"><i class="fa fa-check"></i></button></td>
+								</tr>
+								<tr>
+									<td>Triden</td>
+									<td>IE</td>
+									<td><button class="btn btn-warning"><i class="fa fa-check"></i></button></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="preFooter container-fluid">
+		<div class="row">
+			<div class="col-sm-3">
+				<h4>About</h4>
+				<ul class="list-unstyled">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google+</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<h4>Support</h4>
+				<ul class="list-unstyled">
+					<li><a href="#">Frequently Asked Questions</a></li>
+					<li><a href="#">Ask a Question</a></li>
+					<li><a href="#">Video Tutorial</a></li>
+					<li><a href="#">Feedback</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<h4>Legal</h4>
+				<ul class="list-unstyled">
+					<li><a href="#">License</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Security</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<h4>Settings</h4>
+				<ul class="list-unstyled">
+					<li><a href="#">Consectetur adipisicing</a></li>
+					<li><a href="#">Eiusmod tempor</a></li>
+					<li><a href="#">Fugiat nulla pariatur</a></li>
+					<li><a href="#">Officia deserunt</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer><span class="h3"><small>2017</small></span></footer>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("[data-toggle='tooltip']").tooltip();
+		});
+		$(function() {
+			$("[data-toggle='popover']").popover();
+		});
+	</script>
+</body>
+
+</html>

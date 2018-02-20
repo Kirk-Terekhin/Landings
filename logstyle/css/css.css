@@ -1,0 +1,356 @@
+body {
+    color: #323232;
+}
+.container {
+    width: 1000px !important;
+    padding-bottom: 30px;
+  padding-top: 20px;
+}
+header.container {
+    padding-bottom: 0px;s
+}
+.header-bg {
+    background: url(../images/header-bg.jpg) right top no-repeat;
+    background-size: cover;
+}
+.portfolio .col-xs-3 img {
+    width: 100%;    
+    position: relative;
+    overflow: hidden;
+}
+footer img,
+.portfolio img,
+.work-bg img {
+    max-width: 100%;
+}
+
+.green {
+    color: green;
+}
+
+.forma,
+.slider {
+    position: relative;
+    z-index: 1;
+}
+.slider .carousel.slide  {
+    background: url(../images/ipad.png) top center no-repeat;
+    background-size: contain;
+    padding: 70px 57px 0px 59px;
+}
+.klienty .carousel-indicators li {
+    background: #fff;
+}
+.klienty .carousel-indicators .active {
+    background: #008000;
+    border-color: #008000;
+}
+
+.klienty .carousel-inner-div-caption,
+.klienty .carousel-inner-div {
+  position: relative;
+  width: 50%;
+    height: 380px;
+}
+.klienty .carousel-inner-div {    
+    background: url(../images/mac.png) center top no-repeat;
+    background-size: contain;
+}
+.klienty .carousel-inner {
+ margin: 18px 0px 0px 19px;
+  width: 92%;
+}
+.klienty .carousel-indicators {
+    bottom: 20px;
+}
+.klienty .carousel-caption {
+    color: #000;
+    position: relative;
+    text-align: left;
+    text-shadow: none;
+    right: 0%;left: 0%;
+}
+.klienty .carousel-caption figure h3 {
+    margin-bottom: 3px;
+}
+.klienty .carousel-caption figure img {
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+
+.portfolio .col-xs-3:before {
+    position: absolute;
+    display: block;
+    content: " ";
+    text-align: center;
+    font-size: 250px;
+    color: #fff;
+    background: url(../images/zoom.png) center center no-repeat #000;
+    opacity: .1;
+    top: 60px;left: 60px;right: 60px;bottom: 60px;
+    margin: 15px;
+    z-index: -1;
+}
+.portfolio .col-xs-3:hover:before {
+    top: 0px;left: 0px;right: 0px;bottom:0px;
+    transition: .3s linear 0s;
+    opacity: .6;
+    z-index: 999;
+}
+/*form input,button*/
+form label {
+    position: relative;
+}
+form button,
+form input {
+    border: 1px solid #bcbcbc;
+    background: rgba(255, 255, 255, 0.8);
+    color: #343434;
+    padding-left: 40px;
+    border-radius: 5px;
+    width: 220px;
+    height: 40px;
+}
+form button {
+    margin-top: -2px;
+}
+.first-bg form input {
+    background: #fff;
+}
+form button {
+    padding-left: 0px;
+    box-shadow: inset 0px 1px 2px rgba(255, 255, 255, 0.5);
+}
+form .form-group i.fa {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    color: #575757;
+}
+.forma {
+    z-index: 2;
+}
+header {
+    overflow: hidden;
+}
+.modal form button,
+header form button {
+    color: #fff;
+    background: #01994d;
+    border-color: #018644;
+}
+
+
+.unlock {
+    padding-left: 20px;
+}
+.unlock .fa {
+margin-left: -15px;
+  margin-top: 10px;
+}
+
+
+
+
+.close {
+    margin-right: -64px;
+    opacity: .7;
+}
+.close:hover {
+    opacity: 1;
+}
+
+.btn-zakaz,
+.work-bg form button,
+.first-bg form button {
+    color: #000;
+    background: #ffdb4d;
+    border-color: #e5c33d;
+}
+.btn-zakaz {
+    padding: 5px 30px;
+}
+
+/*background*/
+.work-bg,
+.brif-bg,
+.why-bg {
+    background: #f7f8fa;
+}
+.why-bg img {
+    max-width: 100%;
+}
+.why-bg .col-xs-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: right;
+}
+.why-bg .col-xs-9 h4 {
+    margin-top: 0px;
+}
+.why-bg .col-xs-4 {
+    margin-bottom: 25px;
+}
+.first-bg,
+.weDo-bg {
+    background: #01994d;
+    color: #fff;
+}
+.portfolio img,
+figure img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.how2 {
+  background: url(../images/bg-round.png) center top no-repeat;
+    background-size: contain;
+  display: inline-block;
+  padding: 60px;
+  color: #fff;
+}
+.how2 > p {
+    display: inline-block;
+    margin: 0px auto;
+    max-width: 80%;
+    padding: 0px 10px 10px;
+}
+.how1 {
+    display: inline-block;
+    margin: 0px auto;
+    background: #ffff00;
+    position: absolute;
+    top: 5px;
+    margin-left: -13px;
+    border-radius: 50%;
+    line-height: 26px;
+    width: 26px;
+    height: 26px;
+}
+.how0 {
+    position: relative;
+}
+
+
+
+.row > .col-xs-12 > h3 {
+    padding-bottom: 30px;
+}
+.brif-bg {
+    overflow: hidden;
+}
+.brif-bg img[alt="brif"] {
+    margin-bottom: -35px;
+    width: 100%;
+}
+.fa-2x.pull-left {
+    margin-top: 8px;
+    position: relative !important;
+}
+.uslugi .row > .col-xs-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: -1px;
+    border: 1px solid #c6c6c6;
+    margin-top: 50px;
+}
+.uslugi .row > .col-xs-3:hover ul li:first-child {
+    background: #008128;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    transition: .3s linear 0s;
+}
+.uslugi .row > .col-xs-3:hover {
+    margin-top: 30px;
+    transition: .3s linear 0s;    
+    box-shadow: 0px 0px 10px #e6e6e6;
+    position: relative;
+    z-index: 10;
+}
+.uslugi ul {
+    padding: 0px;margin: 0px;
+}
+.uslugi ul li {
+    padding: 0px 10px;
+}
+.uslugi ul li + li {
+    border-top: 1px solid #c6c6c6;
+}
+.uslugi ul li:nth-child(even) {
+    background: #fff;
+}
+.uslugi ul li:nth-child(odd) {
+    background: #f7f8fa;
+}
+.uslugi ul li:nth-child(2) {
+    padding-bottom: 10px;
+    color: #008128;
+}
+.uslugi ul li:nth-child(1),
+.uslugi ul li:nth-child(3) {
+    height: 40px;
+    line-height: 40px;
+}
+.uslugi ul li:nth-child(5),
+.uslugi ul li:nth-child(6),
+.uslugi ul li:nth-child(8),
+.uslugi ul li:nth-child(9),
+.uslugi ul li:nth-child(10) {
+    height: 80px;
+    line-height: 80px;
+}
+
+.uslugi ul li:nth-child(7) {
+    height: 90px;
+    line-height: 90px;
+}
+
+
+
+footer .col-x-5 {
+    width: 19%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+footer .footer-button {
+    background: #01994D;
+  border: none;
+  color: #fff;
+  font-size: 77%;
+  border-radius: 4px;
+  padding: 3px 5px;
+    margin-top: 14px;
+}
+footer h4.big {
+    margin-top: 0px;
+}
+footer button {
+    margin-top: 10px;
+}
+footer h5 {
+    margin-top: 0px;
+}
+
+
+
+/*color*/
+.green {
+    color: #008000;
+}
+
+
+
+@media (max-width:768px){
+    .uslugi .row > .col-md-3.col-sm-6.col-xs-12 ul li:first-child {
+    background: #008128;
+    line-height: 50px;
+    color: #fff;
+}
+}
